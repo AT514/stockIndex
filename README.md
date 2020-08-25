@@ -7,6 +7,9 @@ When the application is run, it will load data set from dow_jones_index.csv file
 ## Testing 
 In order to test the application, JUnit tests in *StockIndexApplicationTests* can be executed to test the functionality.
 When running the application locally, the server port is set to *5000*
+
+
+
 URLS for REST services 
 * GET     http://localhost:5000/dowjones/stockIndexes/  ---   Fetches all the Stock data in mem database.
 * POST    http://localhost:5000/dowjones/stockIndexes/   ---  create new Stock object as shown below to post it
