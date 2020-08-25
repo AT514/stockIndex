@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS DOW_JONES_INDEX;
+
+CREATE TABLE DOW_JONES_INDEX AS SELECT * FROM CSVREAD('src/main/resources/dow_jones_index.csv');
